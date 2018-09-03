@@ -264,7 +264,7 @@ public abstract class AesCbcHmacShaEncryptionProvider implements JWEEncryptionPr
 
         @Override
         public int getExpectedCEKLength() {
-            return 64;
+            return 32;
         }
     }
 
